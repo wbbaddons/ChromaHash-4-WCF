@@ -21,7 +21,7 @@
 	
 	<instructions type="install">
 		<instruction type="option">option.xml</instruction>
-		<instruction type="file">file.tar</instruction>
+		<instruction type="file">files.tar</instruction>
 		<instruction type="templateListener">templateListener.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
 		<instruction type="script" run="standalone">acp/be.bastelstu.wcf.chromaHash.install.php</instruction>

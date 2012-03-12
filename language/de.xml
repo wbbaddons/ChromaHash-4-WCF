@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.chromahash_bars"><![CDATA[ChromaHash-Balken]]></item>
+		<item name="wcf.acp.option.chromahash_bars.description"><![CDATA[Gibt die Anzahl der angezeigten Balken von ChromaHash an. Es sind nur Werte von eins bis vier erlaubt.]]></item>
+		<item name="wcf.acp.option.chromahash_min"><![CDATA[ChromaHash-Mindestzeichen]]></item>
+		<item name="wcf.acp.option.chromahash_min.description"><![CDATA[Gibt die Anzahl der Zeichen an, die eingetippt werden müssen bevor ChromaHash bunt wird. Es sind nur Werte größer als - oder gleich - eins erlaubt.]]></item>
+		<item name="wcf.acp.option.chromahash_salt"><![CDATA[ChromaHash-Salt]]></item>
+		<item name="wcf.acp.option.chromahash_salt.description"><![CDATA[Gibt den ChromaHash-Startwert an. Wenn dieser Wert geändert wird, dann verändert sich die Generierung von ChromaHash. Diese Zeichenkette wurde bei der Installation zufällig generiert und sollte nur in Ausnahmefällen geändert werden.]]></item>
+	</category>
+</language>

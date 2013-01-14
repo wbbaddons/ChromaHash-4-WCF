@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package name="be.bastelstu.wcf.chromaHash" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
-		<packagename><![CDATA[ChromaHash 4 WCF]]></packagename>
-		<packagedescription><![CDATA[ChromaHash for WoltLab Community Framework™]]></packagedescription>
+		<packagename><![CDATA[ChromaHash]]></packagename>
+		<packagedescription><![CDATA[ChromaHash for WoltLab Community Framework™.]]></packagedescription>
 		<standalone>0</standalone>
 		<version>1.0.0 Alpha 1</version>
 		<date>2011-11-26</date>

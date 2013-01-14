@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/options.xsd">
 	<import>
+		<categories>
+			<category name="security.general.chromaHash">
+				<parent>security.general</parent>
+				<showorder>15</showorder>
+			</category>
+		</categories>
 		<options>
 			<option name="chromahash_bars">
-				<categoryname>user.password</categoryname>
+				<categoryname>security.general.chromaHash</categoryname>
 				<optiontype>integer</optiontype>
 				<defaultvalue>3</defaultvalue>
 				<minvalue>1</minvalue>
 				<maxvalue>4</maxvalue>
 			</option>
 			<option name="chromahash_min">
-				<categoryname>user.password</categoryname>
+				<categoryname>security.general.chromaHash</categoryname>
 				<optiontype>integer</optiontype>
 				<defaultvalue>5</defaultvalue>
 				<minvalue>1</minvalue>
 			</option>
 			<option name="chromahash_salt">
-				<categoryname>user.password</categoryname>
+				<categoryname>security.general.chromaHash</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue>053a0024219422ca9215c0a3ed0578ee76cff477</defaultvalue>
 			</option>

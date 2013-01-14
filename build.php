@@ -64,7 +64,7 @@ Building file.tar
 -----------------
 
 EOT;
-	passthru('tar cvf ../file.tar *', $code);
+	passthru('tar cvf ../file.tar * --exclude=.git', $code);
 	if ($code != 0) exit($code);
 echo <<<EOT
 

@@ -24,4 +24,11 @@
 		<instruction type="language">language/*.xml</instruction>
 		<instruction type="script" run="standalone">acp/be.bastelstu.wcf.chromaHash.install.php</instruction>
 	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<instruction type="option">option.xml</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="templateListener">templateListener.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
 </package>

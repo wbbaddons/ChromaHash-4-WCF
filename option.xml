@@ -2,16 +2,18 @@
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/options.xsd">
 	<import>
 		<options>
-			<!-- general chat options -->
 			<option name="chromahash_bars">
 				<categoryname>user.password</categoryname>
 				<optiontype>integer</optiontype>
 				<defaultvalue>3</defaultvalue>
+				<minvalue>1</minvalue>
+				<maxvalue>4</maxvalue>
 			</option>
 			<option name="chromahash_min">
 				<categoryname>user.password</categoryname>
 				<optiontype>integer</optiontype>
 				<defaultvalue>5</defaultvalue>
+				<minvalue>1</minvalue>
 			</option>
 			<option name="chromahash_salt">
 				<categoryname>user.password</categoryname>

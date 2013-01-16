@@ -24,7 +24,7 @@
 			<option name="chromahash_salt">
 				<categoryname>security.general.chromaHash</categoryname>
 				<optiontype>text</optiontype>
-				<defaultvalue>053a0024219422ca9215c0a3ed0578ee76cff477</defaultvalue>
+				<defaultvalue></defaultvalue>
 			</option>
 		</options>
 	</import>

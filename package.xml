@@ -3,7 +3,7 @@
 	<packageinformation>
 		<packagename><![CDATA[ChromaHash]]></packagename>
 		<packagedescription><![CDATA[ChromaHash for WoltLab Community Framework™.]]></packagedescription>
-		<packagedescription><![CDATA[ChromaHash für WoltLab Community Framework™.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[ChromaHash für WoltLab Community Framework™.]]></packagedescription>
 		<standalone>0</standalone>
 		<version>1.0.0 Alpha 1</version>
 		<date>2011-11-26</date>
